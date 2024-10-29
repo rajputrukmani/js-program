@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+     
+    <script>
+        var data =[
+            {"Id":1,"Name":"Rukmani","Salary":30000,"Address":"Indore"},
+            {"Id":2,"Name":"Kanita","Salary":40000,"Address":"Indore"},
+            {"Id":3,"Name":"Saloni","Salary":50000,"Address":"Bhopal"}]
+
+            document.write("<table border='1'width='100%'>");
+                document.write("<tr>");
+                    document.write("<td>Id</td>");
+                    document.write("<td>Id</Name>");
+                    document.write("<td>Salary</td>");
+                    document.write("<td>Address</td>");
+                    document.write("</tr>");
+
+                    for(var details of data)
+                    {
+                        document.write("<tr>");
+                        document.write(`<td>${details.Id}</td>`);
+                        document.write("<td>"+details.Name+"</td>");
+                        document.write("<td>"+details.Salary+"</td>");
+                        document.write("<td>"+details.Address+"</td>");
+                        document.write("</tr>");
+                    }
+                    document.write("</table>");
+
+            </script>
+</body>
+</html>
