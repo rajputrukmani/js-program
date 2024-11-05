@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--6. JavaScript Program to Convert Kilometers to Miles
+  -->
+    <script>
+        let k = parseInt(prompt("enter no"))
+        let miles =k*0.621371
+        console.log(miles)
+    </script>
+</body>
+</html>
