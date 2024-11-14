@@ -1,0 +1,19 @@
+<!-- Write a program to accept a string and check if it is palindrome or not? -->
+ <script>
+    var str = "ma'am"
+    var s= ""
+    for(let i=0;i<str.length;i++)
+ {
+    let char = str[i]
+    s = char+s
+}
+  document.write(`string ${s}`+"<br>"+ `reveres:${s}`)
+  if(str==s)
+  {
+    document.write("<br>" +"String is palindrom")
+  }
+  else
+  {
+    document.write("<br>"+"String is not palindrom")
+  }
+ </script>
