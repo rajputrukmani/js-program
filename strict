@@ -1,0 +1,14 @@
+
+function strictMode(){
+    'use strict';
+    try {
+        x = 6;
+        document.getElementById('hoisting').innerHTML = x;
+        var x;
+     }
+     catch(err) {
+                    document.getElementById('error_report').innerHTML = 
+                        "There was an error that occured (Were in Strict Mode)" +
+                            " " + err.message;
+               }
+}
